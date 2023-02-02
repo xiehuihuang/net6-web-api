@@ -1,0 +1,11 @@
+2023-02-02 21:19:02,674 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7226
+2023-02-02 21:19:02,784 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5055
+2023-02-02 21:19:02,793 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-02-02 21:19:02,799 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-02-02 21:19:02,802 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\workspace\NetCode\web\net6-web-api\Project.WebApi\
+2023-02-02 21:19:23,839 [3] INFO  Project.WebApi.Controllers.LoginController - LoginController 登录成功
+2023-02-02 22:14:35,366 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7226
+2023-02-02 22:14:35,512 [1] INFO  Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5055
+2023-02-02 22:14:35,523 [1] INFO  Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-02-02 22:14:35,529 [1] INFO  Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-02-02 22:14:35,534 [1] INFO  Microsoft.Hosting.Lifetime - Content root path: C:\workspace\NetCode\web\net6-web-api\Project.WebApi\

@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Project.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:Project.WebApi.Controllers.LoginController.LoginByMobile(System.String,System.String)">
+            <summary>
+            手机号登录
+            </summary>
+            <param name="mobile"></param>
+            <param name="smsVerificationCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Project.WebApi.Controllers.LoginController.SendVerifyCode(System.String)">
+            <summary>
+            发送验证码
+            </summary>
+            <param name="mobile"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Project.WebApi.Controllers.LoginController.LoginByNamePass(System.String,System.String)">
+            <summary>
+            用户名密码登录
+            </summary>
+            <param name="name"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Project.WebApi.Controllers.RegisterController.#ctor(Microsoft.Extensions.Logging.ILogger{Project.WebApi.Controllers.RegisterController},Project.Interfaces.IRegisterService)">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+            <param name="iRegisterService"></param>
+        </member>
+        <member name="M:Project.WebApi.Controllers.RegisterController.SendVerifyCode(System.String)">
+            <summary>
+            发送短信验证码
+            </summary>
+            <param name="mobile"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Project.WebApi.Controllers.RegisterController.Register(Project.DTO.RegisterModel)">
+            <summary>
+            注册用户
+            </summary>
+            <param name="registerModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Project.WebApi.Controllers.UploadController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Project.WebApi.Controllers.UploadController.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:Project.WebApi.Controllers.UploadController.UpLoadImage(Microsoft.AspNetCore.Http.IFormCollection)">
+            <summary>
+            上传文件
+            </summary>
+            <param name="formCollection"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Project.WebApi.Controllers.UserController.GetCurrentUserInfo(System.Int32)">
+            <summary>
+            获取用户信息
+            </summary>
+            <param name="userid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Project.WebApi.Controllers.UserController.UpUserInfo(Project.DTO.UserDTO)">
+            <summary>
+            修改用户信息
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Project.WebApi.Jwt.HSJWTService">
+            <summary>
+            对称可逆加密
+            </summary>
+        </member>
+        <member name="M:Project.WebApi.Jwt.HSJWTService.#ctor(Microsoft.Extensions.Options.IOptionsMonitor{Project.DTO.JWTTokenOptions})">
+            <summary>
+            
+            </summary>
+            <param name="jwtTokenOptions"></param>
+        </member>
+        <member name="M:Project.WebApi.Jwt.HSJWTService.GetToken(Project.DTO.UserInfoDTO)">
+            <summary>
+            生成Token
+            </summary>
+            <param name="UserName"></param>
+            <param name="password"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Project.WebApi.Jwt.RSAHelper.TryGetKeyParameters(System.String,System.Boolean,System.Security.Cryptography.RSAParameters@)">
+            <summary>
+            从本地文件中读取用来签发 Token 的 RSA Key
+            </summary>
+            <param name="filePath">存放密钥的文件夹路径</param>
+            <param name="withPrivate"></param>
+            <param name="keyParameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Project.WebApi.Jwt.RSAHelper.GenerateAndSaveKey(System.String,System.Boolean)">
+            <summary>
+            生成并保存 RSA 公钥与私钥
+            </summary>
+            <param name="filePath">存放密钥的文件夹路径</param>
+            <returns></returns>
+        </member>
+        <member name="T:Project.WebApi.Jwt.RSSJWTervice">
+            <summary>
+            非对称可逆加密
+            </summary>
+        </member>
+        <member name="T:Project.WebApi.Register.AuthorizationExtend">
+            <summary>
+            JWT授权封装
+            </summary>
+        </member>
+        <member name="M:Project.WebApi.Register.AuthorizationExtend.AuthorizationExt(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+            <summary>
+            支持授权的扩展方法
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="T:Project.WebApi.Register.AutofaceExtend">
+            <summary>
+            替换Autofac
+            注册抽象和服务
+            </summary>
+        </member>
+        <member name="M:Project.WebApi.Register.AutofaceExtend.RegisterAutofac(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+            <summary>
+            扩展方法
+            </summary>
+            <param name="applicationBuilder"></param>
+        </member>
+        <member name="T:Project.WebApi.Register.CorsExtend">
+            <summary>
+            跨域策略配置封装
+            </summary>
+        </member>
+        <member name="M:Project.WebApi.Register.CorsExtend.RegisterCors(Microsoft.AspNetCore.Builder.WebApplicationBuilder,System.String)">
+            <summary>
+            扩展方法
+            </summary>
+            <param name="applicationBuilder"></param>
+        </member>
+        <member name="T:Project.WebApi.Register.StreamReadMiddleware">
+            <summary>
+            读取图片
+            </summary>
+        </member>
+        <member name="M:Project.WebApi.Register.StreamReadMiddleware.#ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Configuration.IConfiguration,Microsoft.Extensions.Logging.ILogger{Project.WebApi.Register.StreamReadMiddleware})">
+            <summary>
+            构造函数注入
+            </summary>
+            <param name="next"></param>
+            <param name="configuration"></param>
+            <param name="logger"></param>
+        </member>
+        <member name="M:Project.WebApi.Register.StreamReadMiddleware.InvokeAsync(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            执行中间件
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="T:Project.WebApi.Register.SwaggerExtend">
+            <summary>
+            Swagger配置封装
+            </summary>
+        </member>
+        <member name="M:Project.WebApi.Register.SwaggerExtend.RegisterSwagger(Microsoft.AspNetCore.Builder.WebApplicationBuilder)">
+            <summary>
+            扩展方法
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="T:Project.WebApi.Register.SwaggerFileUploadFilter">
+            <summary>
+            Swagger文件上传过滤配置封装
+            </summary>
+        </member>
+    </members>
+</doc>

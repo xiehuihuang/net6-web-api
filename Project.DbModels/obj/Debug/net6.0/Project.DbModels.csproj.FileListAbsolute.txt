@@ -1,0 +1,12 @@
+C:\workspace\NetCode\web\net6-web-api\Project.DbModels\obj\Debug\net6.0\Project.DbModels.csproj.AssemblyReference.cache
+C:\workspace\NetCode\web\net6-web-api\Project.DbModels\obj\Debug\net6.0\Project.DbModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\NetCode\web\net6-web-api\Project.DbModels\obj\Debug\net6.0\Project.DbModels.AssemblyInfoInputs.cache
+C:\workspace\NetCode\web\net6-web-api\Project.DbModels\obj\Debug\net6.0\Project.DbModels.AssemblyInfo.cs
+C:\workspace\NetCode\web\net6-web-api\Project.DbModels\obj\Debug\net6.0\Project.DbModels.csproj.CoreCompileInputs.cache
+C:\workspace\NetCode\web\net6-web-api\Project.DbModels\bin\Debug\net6.0\Project.DbModels.deps.json
+C:\workspace\NetCode\web\net6-web-api\Project.DbModels\bin\Debug\net6.0\Project.DbModels.dll
+C:\workspace\NetCode\web\net6-web-api\Project.DbModels\bin\Debug\net6.0\Project.DbModels.pdb
+C:\workspace\NetCode\web\net6-web-api\Project.DbModels\obj\Debug\net6.0\Project.DbModels.dll
+C:\workspace\NetCode\web\net6-web-api\Project.DbModels\obj\Debug\net6.0\refint\Project.DbModels.dll
+C:\workspace\NetCode\web\net6-web-api\Project.DbModels\obj\Debug\net6.0\Project.DbModels.pdb
+C:\workspace\NetCode\web\net6-web-api\Project.DbModels\obj\Debug\net6.0\ref\Project.DbModels.dll
