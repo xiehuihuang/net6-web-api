@@ -44,6 +44,7 @@ SqlSugar：                数据访问层
 5. HSJWTService.cs          --- JWT对称可逆加密
 6. RSSJWTervice.cs          --- JWT非对称可逆加密
 7. AutoMapObject.cs         --- 支持Automapper映射
+![image](https://user-images.githubusercontent.com/32085450/216363378-d631b253-6f41-44f7-9ba5-5f632936b46e.png)
 
 
 
